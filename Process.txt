@@ -1,0 +1,17 @@
+take src folder 
+
+-> npm init -y
+-> npm i express mongoose
+
+
+add  "server" : "nodemon src/server" in package.json
+
+which help to help file uploads
+->npm install --save multer
+after that you can add
+fileUpload.js from multer npm
+
+
+add
+const path = require("path");
+which give path of the file
